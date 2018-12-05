@@ -1,0 +1,23 @@
+{
+  "name": "02_geoquakes_lab",
+  "version": "1.0.0",
+  "description": "> ***Note:*** *This is a pair programming activity! You must work with a partner on this project! There are many pieces that could trip you up, so having two pairs of eyes and two brains on one set of code will be an important tactic to minimize errors and generate ideas.*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimcaleb/GeoEarthQuakeApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimcaleb/GeoEarthQuakeApp/issues"
+  },
+  "homepage": "https://github.com/kimcaleb/GeoEarthQuakeApp#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7"
+  }
+}
