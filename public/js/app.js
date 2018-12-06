@@ -19,3 +19,18 @@ function fetchQuake() {
 }
 
 fetchQuake();
+var map;
+function initMap() {
+  var myLatLng = {lat: 37.78, lng: -122.44};
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 37.78, lng: -122.44},
+    zoom: 8
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+}
+initMap();
